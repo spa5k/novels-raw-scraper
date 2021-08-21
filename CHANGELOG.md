@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/Unbuttun/novels-raw-scraper/compare/v1.0.0...v1.1.0) (2021-08-21)
+
+
+### Bug Fixes
+
+* **actions:** 🐛 Fixing the build command ([2139aa4](https://github.com/Unbuttun/novels-raw-scraper/commit/2139aa47b19815b3f67b93367f6714d76071ac48))
+
+
+### Features
+
+* **main:** ✨ Releasing again ([#2](https://github.com/Unbuttun/novels-raw-scraper/issues/2)) ([9e7f094](https://github.com/Unbuttun/novels-raw-scraper/commit/9e7f09435ee4a292e9dc516d5bc0ff99ad714608))
+
 # 1.0.0 (2021-08-21)
 
 
