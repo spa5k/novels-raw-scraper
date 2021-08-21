@@ -11,5 +11,6 @@ export const tsup: Options = {
   minify: env === "production",
   bundle: true,
   skipNodeModulesBundle: true,
+  watch: env === "development",
   entryPoints: ["src/index.ts"],
 };

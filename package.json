@@ -1,10 +1,10 @@
 {
-  "name": "esbuild-typescript-library-template",
+  "name": "novels-raw-scraper",
   "description": "Typescript Esbuild Library Template",
-  "version": "1.1.0",
+  "version": "0.0.1",
   "author": "Unbuttun <unbuttun@gmail.com>",
   "bugs": {
-    "url": "https://github.com/Unbuttun/esbuild-typescript-library-template/issues"
+    "url": "https://github.com/Unbuttun/novels-raw-scraper/issues"
   },
   "commitlint": {
     "extends": [
@@ -23,24 +23,26 @@
     "@semantic-release/github": "^7.2.3",
     "@semantic-release/npm": "^7.1.3",
     "@semantic-release/release-notes-generator": "^9.0.3",
-    "@types/jest": "^27.0.0",
-    "@types/node": "^16.4.13",
+    "@types/cheerio": "^0.22.30",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.1",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
     "dotenv": "^10.0.0",
-    "esbuild": "^0.12.19",
+    "esbuild": "^0.12.22",
     "esbuild-jest": "^0.5.0",
     "eslint": "^7.32.0",
-    "eslint-config-galex": "^2.16.7",
+    "eslint-config-galex": "^2.16.9",
     "husky": "^7.0.1",
     "jest": "^27.0.6",
+    "nodemon": "^2.0.12",
     "prettier": "^2.3.2",
-    "semantic-release": "^17.4.4",
-    "tslib": "^2.3.0",
-    "tsup": "^4.13.1",
+    "semantic-release": "^17.4.5",
+    "tslib": "^2.3.1",
+    "tsup": "^4.14.0",
     "typescript": "^4.3.5"
   },
-  "homepage": "https://github.com/Unbuttun/esbuild-typescript-library-template#readme",
+  "homepage": "https://github.com/Unbuttun/novels-raw-scraper#readme",
   "husky": {
     "hooks": {
       "pre-commit": "pnpm format && pnpm lint",
@@ -61,7 +63,7 @@
   "module": "dist/index.esm.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Unbuttun/esbuild-typescript-library-template.git"
+    "url": "git+https://github.com/Unbuttun/novels-raw-scraper.git"
   },
   "scripts": {
     "build": "NODE_ENV='production' tsup-node",
@@ -70,7 +72,17 @@
     "lint": "eslint src --ext .ts",
     "test": "jest",
     "cz": "cz",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "dev": "nodemon dist/index.js"
   },
-  "typings": "dist/index.d.ts"
+  "typings": "dist/index.d.ts",
+  "dependencies": {
+    "chardet": "^1.3.0",
+    "cheerio": "^1.0.0-rc.10",
+    "chinese-numbers-to-arabic": "^1.0.0",
+    "got": "^11.8.2",
+    "iconv-lite": "^0.6.3",
+    "is-url-online": "^1.0.3",
+    "quick-scraper": "^1.0.1"
+  }
 }
