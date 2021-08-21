@@ -1,3 +1,19 @@
+# [1.2.0](https://github.com/Unbuttun/novels-raw-scraper/compare/v1.1.0...v1.2.0) (2021-08-21)
+
+
+### Bug Fixes
+
+* **actions:** 🐛 fixing the release action ([634f56c](https://github.com/Unbuttun/novels-raw-scraper/commit/634f56cb43819f84eb16bf135c073d7a48ed39b2))
+* **main:** fixing the action typo ([ca3e1d9](https://github.com/Unbuttun/novels-raw-scraper/commit/ca3e1d98f465894f0940eacaa1a78cdab0a141f7))
+
+
+### Features
+
+* **main:** ✨ Adding jsdoc support ([6053475](https://github.com/Unbuttun/novels-raw-scraper/commit/605347532c963358a82d2389e004ee80482d030b))
+* **main:** ✨ Improving few parts ([1c23dc4](https://github.com/Unbuttun/novels-raw-scraper/commit/1c23dc4fd3a638a10ad4f951c0e8f4c3c0b1a831))
+* **main:** ✨ Improving JSDoc supports ([bbb1f5c](https://github.com/Unbuttun/novels-raw-scraper/commit/bbb1f5c8f7ef0bef6b730ac801b380aa57ced497))
+* **main:** ✨ Initial Commit, releasing ([d2b918c](https://github.com/Unbuttun/novels-raw-scraper/commit/d2b918c175059c09e71f93ef3c8c9c17896c011a))
+
 # [1.1.0](https://github.com/Unbuttun/novels-raw-scraper/compare/v1.0.0...v1.1.0) (2021-08-21)
 
 
