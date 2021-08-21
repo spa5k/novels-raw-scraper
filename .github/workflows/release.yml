@@ -32,7 +32,12 @@ jobs:
       - name: Install deps
         run: pnpm install
       - name: Build
+<<<<<<< HEAD
         run: pnpm build
+=======
+        run: pnpm bulid
+
+>>>>>>> next
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

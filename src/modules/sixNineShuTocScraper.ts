@@ -7,7 +7,6 @@ import { TocOutput } from "../types/types";
  * @returns Promise<{number: number; title: string; url: string}[]>
  * @description Scrapes the Table of content and returns the array.
  */
-
 export const sixNineShuTocScraper = async (url: string): Promise<TocOutput> => {
   const data = await quickScraper({
     url,

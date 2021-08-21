@@ -1,6 +1,11 @@
 import { ChapterOutput } from "..";
 import { urlParser } from "../utils/urlParser";
 
+/**
+ * @param  {string} url
+ * @returns Promise<String>
+ * @description Returns the chapter text after scraping the chapter
+ */
 export const sixNineShuChapterScraper = async (
   url: string
 ): Promise<ChapterOutput> => {
