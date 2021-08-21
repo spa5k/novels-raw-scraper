@@ -6,7 +6,6 @@ import { urlParser } from "../utils/urlParser";
  * @returns Promise<String>
  * @description Returns the chapter text after scraping the chapter
  */
-
 export const ptwxzChapterScraper = async (
   url: string
 ): Promise<ChapterOutput> => {
