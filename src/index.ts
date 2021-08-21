@@ -1,1 +1,2 @@
-console.log("x");
+export * from "./modules";
+export * from "./types/types";
