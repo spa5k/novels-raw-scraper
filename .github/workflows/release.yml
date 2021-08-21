@@ -2,8 +2,16 @@ name: Release
 
 # Run the workflow when a Pull Request is opened or when changes are pushed to master
 on:
+  pull_request:
+    branches:
+      - main
   push:
-    branches: [main]
+    branches:
+      - main
+      - next
+      - next-major
+      - alpha
+      - beta
 
 jobs:
   runner-job:
@@ -30,10 +38,34 @@ jobs:
         run: curl -f https://get.pnpm.io/v6.7.js | node - add --global pnpm@6
       - name: Install deps
         run: pnpm install
-      - name: Linting
-        run: pnpm lint
-      - name: Release
+      - name: Build
+        run: pnpm build
+
+      - name: Semantic Release
+        uses: cycjimmy/semantic-release-action@v2
+        id: semantic
+        with:
+          extra_plugins: |
+            @semantic-release/git
+            @semantic-release/changelog
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: pnpm semantic-release
+
+      - name: Setup Node.js with GitHub Package Registry
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+          registry-url: "https://npm.pkg.github.com"
+
+      - name: Publish To GitHub Package Registry
+        if: steps.semantic.outputs.new_release_published == 'true'
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+      - name: Push updates to branch for major version
+        if: steps.semantic.outputs.new_release_published == 'true'
+        run: "git push https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git HEAD:refs/heads/v${{steps.semantic.outputs.new_release_major_version}}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
