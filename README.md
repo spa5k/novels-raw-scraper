@@ -64,7 +64,7 @@ import { sixNineShuTocScraper } from "novels-raw-scraper";
 
 // or
 
-import { ptwxzChapterScraper } from "novels-raw-scraper";
+import { ptwxzTocScraper } from "novels-raw-scraper";
 
 
 // You need to input the chapter url, rest will be handled by the library.

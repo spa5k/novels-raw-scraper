@@ -1,6 +1,6 @@
 {
   "name": "novels-raw-scraper",
-  "description": "Typescript Esbuild Library Template",
+  "description": "A library to handle scraping of chapter and table of contents for chinese novels.",
   "version": "1.0.0",
   "author": "Unbuttun <unbuttun@gmail.com>",
   "bugs": {
@@ -53,10 +53,11 @@
     "esbuild",
     "library",
     "typescript",
-    "template",
-    "dts",
-    "cjs",
-    "esm"
+    "scraping",
+    "chinese",
+    "chapter",
+    "toc",
+    "raw"
   ],
   "license": "MIT",
   "main": "dist/index.js",
