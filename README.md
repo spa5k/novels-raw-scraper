@@ -1,6 +1,6 @@
 # Novels Raw Scraper
 
-A little library to handle scraping of chapter and table of contents  for chinese novels.
+A little library to handle scraping of chapter and table of contents for chinese novels.
 
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/novels-raw-scraper?logo=files&style=for-the-badge)
 ![npm](https://img.shields.io/npm/v/novels-raw-scraper?logo=npm&style=for-the-badge)
