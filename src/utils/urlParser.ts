@@ -18,7 +18,7 @@ export const urlParser = async (url: string): Promise<cheerio.Root> => {
     })) as unknown as Buffer;
   } catch (error) {
     console.log("Something happened while getting the data");
-    throw new Error(error);
+    throw new Error(error as string);
   }
 
   const encodingType = chardet.detect(response);
