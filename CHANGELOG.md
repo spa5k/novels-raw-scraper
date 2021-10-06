@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/Unbuttun/novels-raw-scraper/compare/v1.2.0...v1.3.0) (2021-10-04)
+
+
+### Features
+
+* **deps:** arrow_up upgrading the dependencies to latest version ([e377d2c](https://github.com/Unbuttun/novels-raw-scraper/commit/e377d2cacde0464e17b1ea7863d710b4e384ac31))
+
 # [1.2.0](https://github.com/Unbuttun/novels-raw-scraper/compare/v1.1.0...v1.2.0) (2021-08-21)
 
 ### Bug Fixes
