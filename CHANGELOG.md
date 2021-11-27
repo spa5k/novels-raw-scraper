@@ -1,3 +1,16 @@
+# [1.4.0](https://github.com/spa5k/novels-raw-scraper/compare/v1.3.1...v1.4.0) (2021-11-27)
+
+
+### Bug Fixes
+
+* **actions:** 💚 trying to fix the build [#1](https://github.com/spa5k/novels-raw-scraper/issues/1) ([30b85fd](https://github.com/spa5k/novels-raw-scraper/commit/30b85fd3ee6215c6e84bfaec77a5e791eca1f9f5))
+
+
+### Features
+
+* **main:** ✨ fixing the package.json ([7ee7605](https://github.com/spa5k/novels-raw-scraper/commit/7ee7605f75a806557e0fe00424c71be481b52d94))
+* **main:** ✨ moving to headless architecture instead of simple fetching to improve consistency ([5edb729](https://github.com/spa5k/novels-raw-scraper/commit/5edb729773c6ca7a563829da80544c3256f3edb1))
+
 # [1.7.0](https://github.com/spa5k/esbuild-typescript-library-template/compare/v1.6.0...v1.7.0) (2021-11-14)
 
 ### Features
