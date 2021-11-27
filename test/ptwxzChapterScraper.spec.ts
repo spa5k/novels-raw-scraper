@@ -19,7 +19,7 @@ const testsArray: {
     url: "https://www.ptwxz.com/html/11/11622/9427527.html",
   },
 ];
-jest.setTimeout(10_000);
+jest.setTimeout(20_000);
 
 describe("ptwxzChapterScraper", () => {
   testsArray.forEach(({ output, url }, index) => {

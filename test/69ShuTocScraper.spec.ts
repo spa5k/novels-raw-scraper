@@ -14,7 +14,7 @@ const testsArray: {
     url: "https://www.69shu.com/35572/",
   },
 ];
-jest.setTimeout(10_000);
+jest.setTimeout(20_000);
 
 describe("ptwxzTocScraper", () => {
   testsArray.forEach(({ output, url }, index) => {
