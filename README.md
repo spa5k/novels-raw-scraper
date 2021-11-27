@@ -10,6 +10,7 @@ A little library to handle scraping of chapter and table of contents for chinese
 ## Features.
 
 - Supports PTWXZ and 69Shu.
+- Get latest chapter info.
 - Automatically change chinese encoding to UTF-8.
 - Built on typescript.
 - Great DX support due to typescript.
@@ -34,7 +35,7 @@ npm i novels-raw-scraper
 ### Chapter Scraper
 
 ```ts
-import { sixNineShuChapterScraper } from "novels-raw-scraper";
+import { snChapterScraper } from "novels-raw-scraper";
 
 // or
 
@@ -42,7 +43,7 @@ import { ptwxzChapterScraper } from "novels-raw-scraper";
 
 // You need to input the chapter url, rest will be handled by the library.
 
-await sixNineShuChapterScraper("https://www.69shu.com/txt/35345/24661030");
+await snChapterScraper("https://www.69shu.com/txt/35345/24661030");
 
 await ptwxzChapterScraper("https://www.ptwxz.com/html/7/7811/9426848.html");
 
@@ -60,7 +61,7 @@ Output is an String[].
 ### Table of Contents Scraper
 
 ```ts
-import { sixNineShuTocScraper } from "novels-raw-scraper";
+import { snTocScraper } from "novels-raw-scraper";
 
 // or
 
@@ -68,7 +69,7 @@ import { ptwxzTocScraper } from "novels-raw-scraper";
 
 
 // You need to input the chapter url, rest will be handled by the library.
-await sixNineShuTocScraper("https://www.69shu.com/31477/");
+await snTocScraper("https://www.69shu.com/31477/");
 
 await ptwxzChapterScraper("https://www.ptwxz.com/html/7/7811/");
 
@@ -101,6 +102,34 @@ Output's `TocOutput` type of array which can easily be mapped later on.
 
 ```
 
+### Last chapter info scraper
+
+```ts
+import { lastChapterInfo } from "novels-raw-scraper";
+import puppeteer from "puppeteer";
+
+const browser = await puppeteer.launch({ headless: true });
+const page = await browser.newPage();
+
+await lastChapterInfo({
+  linkSelector: "link css selector",
+  numberSelector: "number css selector",
+  sourceUrl: "url of the page where we need to check",
+  titleSelector: "title css selector",
+  page: page, // Cheerio's page instance.
+});
+
+// OUTPUT
+
+/*
+{
+  link: "https://chapterslink.com/123,
+  number: 123,
+  title: "Some great title"
+}
+*/
+```
+
 ## API
 
 We currently support 2 sites and 2 functions each site, one for chapter text and other for toc.
@@ -109,19 +138,12 @@ We currently support 2 sites and 2 functions each site, one for chapter text and
 ptwxzChapterScraper();
 ptwxzTocScraper();
 
-sixNineShuChapterScraper();
-sixNineShuTocScraper();
+snChapterScraper();
+snTocScraper();
 ```
 
-### TODO
-
-- Add More providers.
+The last chapter info function can virtually run on all sort of sites.
 
 ### Visualization of this Repo.
 
 ![Visualization of this repo](./diagram.svg)
-
-Commands:
-
-- `cz`: interactive CLI that helps you generate a proper git commit message, using [commitizen](https://github.com/commitizen/cz-cli)
-- `semantic-release`: triggers a release (used in CI)
