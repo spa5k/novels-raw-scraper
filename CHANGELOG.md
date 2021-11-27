@@ -1,50 +1,45 @@
-## [1.3.1](https://github.com/spa5k/novels-raw-scraper/compare/v1.3.0...v1.3.1) (2021-10-06)
-
-
-### Bug Fixes
-
-* **docs:** bug moving from unbuttun to spa5k ([52d031c](https://github.com/spa5k/novels-raw-scraper/commit/52d031c6ce363267f3105117aeff2fec4f22db10))
-
-# [1.3.0](https://github.com/spa5k/novels-raw-scraper/compare/v1.2.0...v1.3.0) (2021-10-04)
+# [1.7.0](https://github.com/spa5k/esbuild-typescript-library-template/compare/v1.6.0...v1.7.0) (2021-11-14)
 
 ### Features
 
-- **deps:** arrow_up upgrading the dependencies to latest version ([e377d2c](https://github.com/spa5k/novels-raw-scraper/commit/e377d2cacde0464e17b1ea7863d710b4e384ac31))
+- **deps:** ⬆️ update @commitlint/cli to 14.1.0 (and 14 others) ([4577df5](https://github.com/spa5k/esbuild-typescript-library-template/commit/4577df56d0eff352040ebcb5345ed069dc498c11))
 
-# [1.2.0](https://github.com/spa5k/novels-raw-scraper/compare/v1.1.0...v1.2.0) (2021-08-21)
-
-### Bug Fixes
-
-- **actions:** 🐛 fixing the release action ([634f56c](https://github.com/spa5k/novels-raw-scraper/commit/634f56cb43819f84eb16bf135c073d7a48ed39b2))
-- **main:** fixing the action typo ([ca3e1d9](https://github.com/spa5k/novels-raw-scraper/commit/ca3e1d98f465894f0940eacaa1a78cdab0a141f7))
+# [1.6.0](https://github.com/spa5k/esbuild-typescript-library-template/compare/v1.5.0...v1.6.0) (2021-10-26)
 
 ### Features
 
-- **main:** ✨ Adding jsdoc support ([6053475](https://github.com/spa5k/novels-raw-scraper/commit/605347532c963358a82d2389e004ee80482d030b))
-- **main:** ✨ Improving few parts ([1c23dc4](https://github.com/spa5k/novels-raw-scraper/commit/1c23dc4fd3a638a10ad4f951c0e8f4c3c0b1a831))
-- **main:** ✨ Improving JSDoc supports ([bbb1f5c](https://github.com/spa5k/novels-raw-scraper/commit/bbb1f5c8f7ef0bef6b730ac801b380aa57ced497))
-- **main:** ✨ Initial Commit, releasing ([d2b918c](https://github.com/spa5k/novels-raw-scraper/commit/d2b918c175059c09e71f93ef3c8c9c17896c011a))
+- **yarn:** ⬆️ updating deps and moving to Yarn v3 ([798fb8b](https://github.com/spa5k/esbuild-typescript-library-template/commit/798fb8b14715e1e5f165f2535fb3d4bfe51e5a4a))
 
-# [1.1.0](https://github.com/spa5k/novels-raw-scraper/compare/v1.0.0...v1.1.0) (2021-08-21)
+# [1.5.0](https://github.com/spa5k/esbuild-typescript-library-template/compare/v1.4.0...v1.5.0) (2021-10-06)
 
 ### Bug Fixes
 
-- **actions:** 🐛 Fixing the build command ([2139aa4](https://github.com/spa5k/novels-raw-scraper/commit/2139aa47b19815b3f67b93367f6714d76071ac48))
+- **docs:** 🐛 moving from unbuttun to spa5k ([088af0a](https://github.com/spa5k/esbuild-typescript-library-template/commit/088af0a2971d9d1160bfe1f7f609bcb4365063fd))
+- **docs:** bug moving from unbuttun to spa5k ([e9b30fe](https://github.com/spa5k/esbuild-typescript-library-template/commit/e9b30fea0d9899e5e2edf0bba5303c912e40db63))
 
 ### Features
 
-- **main:** ✨ Releasing again ([#2](https://github.com/spa5k/novels-raw-scraper/issues/2)) ([9e7f094](https://github.com/spa5k/novels-raw-scraper/commit/9e7f09435ee4a292e9dc516d5bc0ff99ad714608))
+- **deps:** ⬆️ update @types/node to 16.10.3 (and 7 others) ([226cc57](https://github.com/spa5k/esbuild-typescript-library-template/commit/226cc578142c1e4adcd2aa295363e1133453a7fb))
 
-# 1.0.0 (2021-08-21)
-
-### Bug Fixes
-
-- **actions:** 🐛 Trying to fix the release action ([eb82982](https://github.com/spa5k/novels-raw-scraper/commit/eb829828b314d42593620197a0efc21e4aa78385))
-- **main:** 🐛 Fixing the visualization action to not run on main branch ([b859e9c](https://github.com/spa5k/novels-raw-scraper/commit/b859e9c5fb106920ff1417a0c1d7e4cbdfd09496))
+# [1.4.0](https://github.com/spa5k/esbuild-typescript-library-template/compare/v1.3.0...v1.4.0) (2021-10-04)
 
 ### Features
 
-- **main:** ✨ Initial Commit, releasing ([#1](https://github.com/spa5k/novels-raw-scraper/issues/1)) ([5e293bc](https://github.com/spa5k/novels-raw-scraper/commit/5e293bc1aa3bde9600d7333e7c7225b16cba43c9))
+- **deps:** ⬆️ upgrading dependencies to latest version ([61750b6](https://github.com/spa5k/esbuild-typescript-library-template/commit/61750b6281d367ad7a76dafc7fbec0c9a4005fd4))
+- **husky:** ✨ add pinst, update husky to ^7.0.0 ([e282485](https://github.com/spa5k/esbuild-typescript-library-template/commit/e2824854ca48724bf0ec1e842028a9bec0808c60))
+
+# [1.3.0](https://github.com/spa5k/esbuild-typescript-library-template/compare/v1.2.0...v1.3.0) (2021-09-01)
+
+### Features
+
+- **main:** ✨ Added node-dev to automatically start the dev server ([a9a444d](https://github.com/spa5k/esbuild-typescript-library-template/commit/a9a444d53ab5418ffeb826ed18a6c50bce21fd4f))
+
+# [1.2.0](https://github.com/spa5k/esbuild-typescript-library-template/compare/v1.1.0...v1.2.0) (2021-08-21)
+
+### Features
+
+- **actions:** ✨ Improving actions running schedule ([eb2f815](https://github.com/spa5k/esbuild-typescript-library-template/commit/eb2f8150c039b12172f3cadecd379840977064db))
+- **actions:** 🐛 Fixing the test action typo mistake ([b0dab73](https://github.com/spa5k/esbuild-typescript-library-template/commit/b0dab73aa5f68a982e2ff7ce668539b02fb7d0b3))
 
 # 0.1.0 (2021-08-04)
 

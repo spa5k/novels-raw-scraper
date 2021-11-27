@@ -1,4 +1,3 @@
-export * from "./ptwxzChapterScraper";
-export * from "./ptwxzTocScraper";
-export * from "./sixNineShuChapterScraper";
-export * from "./sixNineShuTocScraper";
+export * from "./lastChapterInfo";
+export * from "./ptwxz";
+export * from "./snShu";

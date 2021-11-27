@@ -1,3 +1,4 @@
+import puppeteer from "puppeteer";
 import { ptwxzTocScraper } from "../src";
 
 const testsArray: {
@@ -17,14 +18,17 @@ const testsArray: {
     url: "https://www.ptwxz.com/html/10/10272/",
   },
 ];
-jest.setTimeout(10_000);
+jest.setTimeout(20_000);
 
 describe("ptwxzTocScraper", () => {
   testsArray.forEach(({ output, url }, index) => {
     test(`#${index + 1}: Testing ${url}`, async () => {
-      expect(await ptwxzTocScraper(url).then((text) => text[0].title)).toBe(
-        output
-      );
+      const browser = await puppeteer.launch({ headless: true });
+      const page = await browser.newPage();
+      expect(
+        await ptwxzTocScraper(url, page).then((text) => text[0].title)
+      ).toBe(output);
+      await browser.close();
     });
   });
 });

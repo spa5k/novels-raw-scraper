@@ -1,4 +1,5 @@
-import { sixNineShuTocScraper } from "../src";
+import puppeteer from "puppeteer";
+import { snTocScraper } from "../src";
 
 const testsArray: {
   output: string;
@@ -12,19 +13,18 @@ const testsArray: {
     output: "一切为了修炼",
     url: "https://www.69shu.com/35572/",
   },
-  {
-    output: "牢狱之灾",
-    url: "https://www.69shu.com/31477/",
-  },
 ];
-jest.setTimeout(10_000);
+jest.setTimeout(20_000);
 
 describe("ptwxzTocScraper", () => {
   testsArray.forEach(({ output, url }, index) => {
     test(`#${index + 1}: Testing ${url}`, async () => {
-      expect(
-        await sixNineShuTocScraper(url).then((text) => text[0].title)
-      ).toBe(output);
+      const browser = await puppeteer.launch({ headless: true });
+      const page = await browser.newPage();
+      expect(await snTocScraper(url, page).then((text) => text[0].title)).toBe(
+        output
+      );
+      await browser.close();
     });
   });
 });
