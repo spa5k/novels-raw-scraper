@@ -74,7 +74,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["pinst", "npm:2.1.6"],
             ["prettier", "npm:2.5.1"],
             ["puppeteer", "npm:12.0.1"],
-            ["quick-scraper", "virtual:4e18c0ce63cf08bd60d5e18e0090af9dec6cf995e571d7fa0d9884736fd2d8791175d2ef92e0a01798590408233158b114fabf214fa19c09de8d79d46a8fc3ed#npm:1.5.0"],
+            ["quick-scraper", "virtual:4e18c0ce63cf08bd60d5e18e0090af9dec6cf995e571d7fa0d9884736fd2d8791175d2ef92e0a01798590408233158b114fabf214fa19c09de8d79d46a8fc3ed#npm:1.6.0"],
             ["regenerator-runtime", "npm:0.13.9"],
             ["semantic-release", "npm:18.0.1"],
             ["tslib", "npm:2.3.1"],
@@ -10492,7 +10492,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["pinst", "npm:2.1.6"],
             ["prettier", "npm:2.5.1"],
             ["puppeteer", "npm:12.0.1"],
-            ["quick-scraper", "virtual:4e18c0ce63cf08bd60d5e18e0090af9dec6cf995e571d7fa0d9884736fd2d8791175d2ef92e0a01798590408233158b114fabf214fa19c09de8d79d46a8fc3ed#npm:1.5.0"],
+            ["quick-scraper", "virtual:4e18c0ce63cf08bd60d5e18e0090af9dec6cf995e571d7fa0d9884736fd2d8791175d2ef92e0a01798590408233158b114fabf214fa19c09de8d79d46a8fc3ed#npm:1.6.0"],
             ["regenerator-runtime", "npm:0.13.9"],
             ["semantic-release", "npm:18.0.1"],
             ["tslib", "npm:2.3.1"],
@@ -11678,17 +11678,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["quick-scraper", [
-        ["npm:1.5.0", {
-          "packageLocation": "./.yarn/cache/quick-scraper-npm-1.5.0-1c0468227a-8783af2c64.zip/node_modules/quick-scraper/",
+        ["npm:1.6.0", {
+          "packageLocation": "./.yarn/cache/quick-scraper-npm-1.6.0-2d3edabf2d-0e404fae15.zip/node_modules/quick-scraper/",
           "packageDependencies": [
-            ["quick-scraper", "npm:1.5.0"]
+            ["quick-scraper", "npm:1.6.0"]
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:4e18c0ce63cf08bd60d5e18e0090af9dec6cf995e571d7fa0d9884736fd2d8791175d2ef92e0a01798590408233158b114fabf214fa19c09de8d79d46a8fc3ed#npm:1.5.0", {
-          "packageLocation": "./.yarn/__virtual__/quick-scraper-virtual-93d62af51d/0/cache/quick-scraper-npm-1.5.0-1c0468227a-8783af2c64.zip/node_modules/quick-scraper/",
+        ["virtual:4e18c0ce63cf08bd60d5e18e0090af9dec6cf995e571d7fa0d9884736fd2d8791175d2ef92e0a01798590408233158b114fabf214fa19c09de8d79d46a8fc3ed#npm:1.6.0", {
+          "packageLocation": "./.yarn/__virtual__/quick-scraper-virtual-7e54a5013c/0/cache/quick-scraper-npm-1.6.0-2d3edabf2d-0e404fae15.zip/node_modules/quick-scraper/",
           "packageDependencies": [
-            ["quick-scraper", "virtual:4e18c0ce63cf08bd60d5e18e0090af9dec6cf995e571d7fa0d9884736fd2d8791175d2ef92e0a01798590408233158b114fabf214fa19c09de8d79d46a8fc3ed#npm:1.5.0"],
+            ["quick-scraper", "virtual:4e18c0ce63cf08bd60d5e18e0090af9dec6cf995e571d7fa0d9884736fd2d8791175d2ef92e0a01798590408233158b114fabf214fa19c09de8d79d46a8fc3ed#npm:1.6.0"],
             ["@types/puppeteer", null],
             ["chardet", "npm:1.4.0"],
             ["cheerio", "npm:1.0.0-rc.10"],
