@@ -1,3 +1,4 @@
+import { toArabicString } from "chinese-numbers-to-arabic";
 import type { Page } from "puppeteer";
 import type { TocItem } from "./types";
 
@@ -36,7 +37,10 @@ export const lastChapterInfoScraper = async (
   if (!title) {
     throw new Error("No title found");
   }
-  const number = Number.parseInt(numberString.replace(/^\D+/gu, ""));
+
+  const num = toArabicString(numberString);
+
+  const number = Number.parseInt(num.replace(/^\D+/gu, ""));
 
   return {
     url,

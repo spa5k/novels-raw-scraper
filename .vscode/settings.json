@@ -8,7 +8,8 @@
     "docs",
     "chapter",
     "toc",
-    "test"
+    "test",
+    "lastchapterinfo"
   ],
   "search.exclude": {
     "**/.yarn": true,
