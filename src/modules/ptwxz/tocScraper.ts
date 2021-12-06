@@ -45,7 +45,7 @@ export const ptwxzTocScraper = async (
     }
 
     const chapterNumber = chapterNumberString.replace(/\D/gu, "");
-    const chapterTitle = chapter.text?.split(" ")[1];
+    const chapterTitle = titleCleaner(chapter.text as string);
     const chapterUrl = chapter.href;
 
     if (chapterNumber && chapterTitle && chapterUrl) {

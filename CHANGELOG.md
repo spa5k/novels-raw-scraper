@@ -1,9 +1,8 @@
 ## [1.4.1](https://github.com/spa5k/novels-raw-scraper/compare/v1.4.0...v1.4.1) (2021-12-05)
 
-
 ### Bug Fixes
 
-* **lastchapterinfo:** 🐛 fixed the bug that was causing numbers to be not found in some versions of title ([f85879f](https://github.com/spa5k/novels-raw-scraper/commit/f85879f7d348a6a90f569cb65cd4c044e1130264))
+- **lastchapterinfo:** 🐛 fixed the bug that was causing numbers to be not found in some versions of title ([f85879f](https://github.com/spa5k/novels-raw-scraper/commit/f85879f7d348a6a90f569cb65cd4c044e1130264))
 
 # [1.4.0](https://github.com/spa5k/novels-raw-scraper/compare/v1.3.1...v1.4.0) (2021-11-27)
 

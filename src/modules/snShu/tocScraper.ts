@@ -3,6 +3,7 @@ import type { Page } from "puppeteer";
 import type { QuickScraperOutput } from "quick-scraper";
 import { quickScraperHeadless } from "quick-scraper";
 import { scraper } from "../../utils/scraper";
+import { titleCleaner } from "../../utils/titleCleaner";
 import type { TocItem } from "../../utils/types";
 
 export const snTocScraper = async (
@@ -51,7 +52,7 @@ export const snTocScraper = async (
     }
 
     const chapterNumber = chapterNumberString.replace(/\D/gu, "");
-    const chapterTitle = chapter.text?.split(" ")[1];
+    const chapterTitle = titleCleaner(chapter.text as string);
     const chapterUrl = chapter.href;
 
     if (chapterNumber && chapterTitle && chapterUrl) {

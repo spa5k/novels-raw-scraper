@@ -10,7 +10,7 @@ const testsArray: {
     url: "https://www.69shu.com/txt/31477/22493555",
   },
   {
-    output: "完本感言",
+    output: "第915章 绝世武神",
     url: "https://www.69shu.com/txt/31477/26126399",
   },
   {
