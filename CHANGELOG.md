@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/spa5k/novels-raw-scraper/compare/v1.4.1...v1.4.2) (2021-12-06)
+
+
+### Bug Fixes
+
+* **main:** 🐛 fixed a bit of things related to title and added a test ([6970638](https://github.com/spa5k/novels-raw-scraper/commit/69706386747a7e8c088b0f1cbffbcc3861a8927c))
+
 ## [1.4.1](https://github.com/spa5k/novels-raw-scraper/compare/v1.4.0...v1.4.1) (2021-12-05)
 
 ### Bug Fixes
