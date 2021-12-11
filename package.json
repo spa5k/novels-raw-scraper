@@ -27,19 +27,19 @@
     "@semantic-release/npm": "8.0.3",
     "@semantic-release/release-notes-generator": "10.0.3",
     "@swc-node/jest": "^1.4.1",
-    "@swc/cli": "^0.1.52",
-    "@swc/core": "^1.2.118",
-    "@swc/helpers": "^0.2.14",
+    "@swc/cli": "^0.1.53",
+    "@swc/core": "^1.2.119",
+    "@swc/helpers": "^0.3.2",
     "@types/jest": "27.0.3",
-    "@types/node": "16.11.11",
-    "@typescript-eslint/eslint-plugin": "5.5.0",
-    "@typescript-eslint/parser": "5.5.0",
+    "@types/node": "16.11.12",
+    "@typescript-eslint/eslint-plugin": "5.6.0",
+    "@typescript-eslint/parser": "5.6.0",
     "@yarnpkg/esbuild-plugin-pnp": "^2.0.0",
     "chokidar": "^3.5.2",
     "commitizen": "4.2.4",
     "cross-env": "^7.0.3",
     "dotenv": "10.0.0",
-    "eslint": "8.4.0",
+    "eslint": "8.4.1",
     "eslint-config-galex": "3.3.5",
     "eslint-import-resolver-node": "0.3.6",
     "eslint-plugin-import": "2.25.3",
@@ -49,16 +49,16 @@
     "eslint-plugin-sonarjs": "0.11.0",
     "eslint-plugin-unicorn": "39.0.0",
     "husky": "7.0.4",
-    "jest": "27.4.3",
+    "jest": "27.4.4",
     "node-dev": "7.1.0",
     "pinst": "2.1.6",
     "prettier": "2.5.1",
-    "puppeteer": "^12.0.1",
+    "puppeteer": "^13.0.0",
     "regenerator-runtime": "^0.13.9",
     "semantic-release": "18.0.1",
     "tslib": "2.3.1",
-    "tsup": "^5.10.1",
-    "typescript": "4.5.2"
+    "tsup": "^5.11.1",
+    "typescript": "4.5.3"
   },
   "files": [
     "dist"
@@ -100,7 +100,7 @@
   },
   "typings": "dist/index.d.ts",
   "peerDependencies": {
-    "puppeteer": "12.0.1"
+    "puppeteer": "^13.0.0"
   },
   "dependenciesMeta": {
     "tsup@5.10.1": {
