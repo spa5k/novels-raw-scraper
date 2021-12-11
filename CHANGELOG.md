@@ -1,3 +1,12 @@
+## [1.4.3](https://github.com/spa5k/novels-raw-scraper/compare/v1.4.2...v1.4.3) (2021-12-11)
+
+
+### Bug Fixes
+
+* **deps:** 🐛 fixing puppeteer related bug ([16aa2fe](https://github.com/spa5k/novels-raw-scraper/commit/16aa2fe592d2e5d1edee7278d23362eeaccc06da))
+* **deps:** 🐛 fixing tsup related bug ([1712a17](https://github.com/spa5k/novels-raw-scraper/commit/1712a179d2f715e5d8c1e09a02216791419012cc))
+* **deps:** 🐛 tsup fix ([31dfc15](https://github.com/spa5k/novels-raw-scraper/commit/31dfc15244d25693302fd293b6a65a2f575e4ae0))
+
 ## [1.4.2](https://github.com/spa5k/novels-raw-scraper/compare/v1.4.1...v1.4.2) (2021-12-06)
 
 ### Bug Fixes
