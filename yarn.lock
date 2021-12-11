@@ -8836,6 +8836,8 @@ __metadata:
   dependenciesMeta:
     tsup@5.10.1:
       unplugged: true
+    tsup@5.11.1:
+      unplugged: true
   languageName: unknown
   linkType: soft
 

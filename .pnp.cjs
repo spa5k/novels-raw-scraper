@@ -13336,14 +13336,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["tsup", [
         ["npm:5.11.1", {
-          "packageLocation": "./.yarn/cache/tsup-npm-5.11.1-11633d1215-38c783e787.zip/node_modules/tsup/",
+          "packageLocation": "./.yarn/unplugged/tsup-virtual-0eba987b07/node_modules/tsup/",
           "packageDependencies": [
             ["tsup", "npm:5.11.1"]
           ],
           "linkType": "SOFT",
         }],
         ["virtual:4e18c0ce63cf08bd60d5e18e0090af9dec6cf995e571d7fa0d9884736fd2d8791175d2ef92e0a01798590408233158b114fabf214fa19c09de8d79d46a8fc3ed#npm:5.11.1", {
-          "packageLocation": "./.yarn/__virtual__/tsup-virtual-0eba987b07/0/cache/tsup-npm-5.11.1-11633d1215-38c783e787.zip/node_modules/tsup/",
+          "packageLocation": "./.yarn/unplugged/tsup-virtual-0eba987b07/node_modules/tsup/",
           "packageDependencies": [
             ["tsup", "virtual:4e18c0ce63cf08bd60d5e18e0090af9dec6cf995e571d7fa0d9884736fd2d8791175d2ef92e0a01798590408233158b114fabf214fa19c09de8d79d46a8fc3ed#npm:5.11.1"],
             ["@types/typescript", null],

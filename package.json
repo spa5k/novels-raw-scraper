@@ -103,7 +103,7 @@
     "puppeteer": "^13.0.0"
   },
   "dependenciesMeta": {
-    "tsup@5.10.1": {
+    "tsup@5.11.1": {
       "unplugged": true
     }
   }
