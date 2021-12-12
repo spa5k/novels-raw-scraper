@@ -1,3 +1,10 @@
+## [1.4.5](https://github.com/spa5k/novels-raw-scraper/compare/v1.4.4...v1.4.5) (2021-12-12)
+
+
+### Bug Fixes
+
+* **lastchapterinfo:** 🐛 trying to fix the playwright related error ([b811efa](https://github.com/spa5k/novels-raw-scraper/commit/b811efae96550f9cb6b31bb78e9903de059d9696))
+
 ## [1.4.4](https://github.com/spa5k/novels-raw-scraper/compare/v1.4.3...v1.4.4) (2021-12-12)
 
 

@@ -1,7 +1,7 @@
 {
   "name": "novels-raw-scraper",
   "description": "A library to handle scraping of chapter and table of contents for chinese novels.",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "author": "spa5k <unbuttun@gmail.com>",
   "bugs": {
     "url": "https://github.com/spa5k/novels-raw-scraper/issues"
