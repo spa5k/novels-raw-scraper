@@ -1,5 +1,5 @@
 import { toArabicString } from "chinese-numbers-to-arabic";
-import type { Page } from "puppeteer";
+import type { Page } from "playwright-chromium";
 import type { QuickScraperOutput } from "quick-scraper";
 import { quickScraperHeadless } from "quick-scraper";
 import { titleCleaner } from "../../utils/titleCleaner";

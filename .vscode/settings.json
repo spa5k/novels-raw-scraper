@@ -9,7 +9,8 @@
     "chapter",
     "toc",
     "test",
-    "lastchapterinfo"
+    "lastchapterinfo",
+    "scraper"
   ],
   "search.exclude": {
     "**/.yarn": true,

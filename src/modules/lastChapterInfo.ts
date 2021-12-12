@@ -1,5 +1,5 @@
 import { isUrlString } from "is-url-online";
-import type { Page } from "puppeteer";
+import type { Page } from "playwright-chromium";
 import { lastChapterInfoScraper } from "../utils/lastChapterInfoScraper";
 import { titleCleaner } from "../utils/titleCleaner";
 

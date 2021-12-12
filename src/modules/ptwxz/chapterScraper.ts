@@ -1,5 +1,5 @@
 import { load } from "cheerio";
-import type { Page } from "puppeteer";
+import type { Page } from "playwright-chromium";
 import { scraper } from "../../utils/scraper";
 
 export const ptwxzChapterScraper = async (

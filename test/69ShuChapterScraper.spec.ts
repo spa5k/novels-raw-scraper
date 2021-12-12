@@ -1,4 +1,4 @@
-import puppeteer from "puppeteer";
+import { chromium } from "playwright-chromium";
 import { snChapterScraper } from "../src";
 
 const testsArray: {
@@ -24,7 +24,7 @@ jest.setTimeout(20_000);
 describe("sixNineShuChapterScraper", () => {
   testsArray.forEach(({ output, url }, index) => {
     test(`#${index + 1}: Testing ${url}`, async () => {
-      const browser = await puppeteer.launch({ headless: true });
+      const browser = await chromium.launch({ headless: true });
       const page = await browser.newPage();
       expect(await snChapterScraper(url, page).then((text) => text[0])).toBe(
         output

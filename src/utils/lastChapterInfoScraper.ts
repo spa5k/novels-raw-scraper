@@ -1,5 +1,5 @@
 import { toArabicString } from "chinese-numbers-to-arabic";
-import type { Page } from "puppeteer";
+import type { Page } from "playwright-chromium";
 import type { TocItem } from "./types";
 
 export const lastChapterInfoScraper = async (
