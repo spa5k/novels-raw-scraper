@@ -1,3 +1,10 @@
+## [1.4.4](https://github.com/spa5k/novels-raw-scraper/compare/v1.4.3...v1.4.4) (2021-12-12)
+
+
+### Bug Fixes
+
+* **scraper:** 🐛 moving from puppeteer to playwright ([c2f3d98](https://github.com/spa5k/novels-raw-scraper/commit/c2f3d98ffe572d632adc30f1f627f42dd1aac987))
+
 ## [1.4.3](https://github.com/spa5k/novels-raw-scraper/compare/v1.4.2...v1.4.3) (2021-12-11)
 
 
