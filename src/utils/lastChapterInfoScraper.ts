@@ -9,13 +9,7 @@ export const lastChapterInfoScraper = async (
   titleSelector: string,
   page: Page
 ): Promise<TocItem> => {
-  const navigationPromise = page.waitForNavigation();
-
-  await page.goto(link, { waitUntil: "domcontentloaded" });
-
-  await navigationPromise;
-
-  await page.waitForSelector(linkSelector);
+  await page.goto(link);
 
   const url = await page.$eval(linkSelector, (elm) => elm.getAttribute("href"));
 
